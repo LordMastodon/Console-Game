@@ -8,6 +8,10 @@ public class Character {
         this.name = name;
     }
 
+    public Character() {
+        this("");
+    }
+
     public String name() {
         return name;
     }

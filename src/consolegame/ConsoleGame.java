@@ -4,7 +4,6 @@ import engine.console.ConsoleOutputStream;
 import consolegame.story.Character;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.text.DefaultCaret;
 import java.awt.*;
@@ -19,6 +18,8 @@ public class ConsoleGame extends JFrame {
     public static Character whoYouAre;
 
     public static int input = 0;
+
+    //TODO The villain is Colonel Sanders from KFC and the hero is Popeye for Popeye's Chicken
 
     private void addComponentsToPane() {
         JPanel panel = new JPanel();
