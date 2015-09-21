@@ -1,6 +1,6 @@
 package consolegame.story;
 
-public class Character {
+public abstract class Character {
 
     private String name;
 
@@ -12,8 +12,8 @@ public class Character {
         this("");
     }
 
-    public String name() {
-        return name;
-    }
+    public abstract String name();
+
+    public abstract void formattedPrint(String message);
 
 }
